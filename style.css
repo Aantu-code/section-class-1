@@ -1,0 +1,110 @@
+.section-padding {
+  position: relative;
+}
+.section-bg {
+  position: absolute;
+  background-image: url("./19141369.jpg");
+  height: 100%;
+  width: 62.9%;
+  z-index: -1;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.section-bg::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  background: #5ec6c0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+}
+.contact-from {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.contact-from input,
+.contact textarea {
+  width: 90%;
+  padding: 5px;
+  margin-bottom: 15px;
+  color: #333;
+  border-radius: 5px;
+  border: none;
+}
+.absolute-text {
+  position: absolute;
+  left: -150px;
+  transform: rotate(270deg);
+  top: 229px;
+  color: rgba(255, 255, 255, 0.726);
+}
+#message {
+  width: 95%;
+}
+.submit {
+  width: 30% !important;
+  background-color: #fff;
+  color: #5ec6c0 !important;
+  border: none;
+}
+input:focus {
+  outline: none;
+}
+#message:focus {
+  outline: none;
+}
+textarea {
+  border-radius: 5px;
+  border: none;
+}
+.size {
+  font-size: 20px;
+  margin-bottom: 25px;
+  width: 100%;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+ul {
+  padding-left: 0 !important;
+  margin-bottom: 35px;
+}
+.appointment-text {
+  padding-left: 10px;
+  position: absolute;
+  transform: translateY(91px);
+}
+a {
+  text-decoration: none;
+}
+
+.boxed-btn {
+  background: #5ec6c0;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.boxed-btn:hover {
+  color: #fff;
+}
+.fas.fa-shield-alt {
+  margin-right: 15px;
+}
+.input-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 90%;
+  border-radius: 5px !important;
+}
+.form-control {
+  height: 45px !important;
+}
+
